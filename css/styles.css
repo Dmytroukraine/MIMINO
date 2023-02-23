@@ -349,6 +349,63 @@ border-radius: 2px;
                 box-shadow: none;
               }
             
+/* Form modal window - SELECT */
+
+.select-css { 
+    display: block; 
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+
+color: #F7F7F7;
+    padding: .6em 1.4em .5em .8em; width: 100%; 
+    width: 287px; 
+     
+    margin: 0; 
+    border: none;
+    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+  
+      -moz-appearance: none;
+     -webkit-appearance: none;
+     appearance: none;
+     background-color: #121212; 
+        
+    } 
+     .select-css::-ms-expand { display: none; } 
+     .select-css:focus { border-color: #aaa; 
+              outline: none; 
+    } 
+     .select-css option { font-weight:normal; } 
+     *[dir="rtl"] .select-css, :root:lang(ar) .select-css, :root:lang(iw) .select-css { 
+    background-position: left .7em top 50%, 0 0; 
+    padding: .6em .8em .5em 1.4em; 
+    }
+
+/* Button for modal  */
+
+.form-send {
+    width: 235px;
+    height: 46px;
+    
+    background-color: transparent;
+    border: 0.8px solid #F7F7F7;
+    border-radius: 32px;}
+
+    .resrvation {font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        
+        color: #F7F7F7;}
+
 
 /* Form modal window - NUMBER */
 
@@ -564,26 +621,6 @@ textarea {resize: none;}
 
 .form-group.send {display: inline-flex;}
 
-.form-send {color:var(--second-text-color); 
-         background:var(--accent-color);    
-         font-weight: 500;
-         line-height: 1.1;
-         align-items: center; 
-         letter-spacing: 0.04em;
-         
-         order: 0;
-         flex-grow: 0;
-     
-         border-radius: 4px;
-         border: 1px solid transparent;
-
-         width: 170px;
-         height: 51px;
-         cursor: pointer;}
-
-.form-send:hover {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); background-color: var(--second-text-color); color: var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}  
-
-.form-send:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); background-color: var(--second-text-color); color: var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
 
@@ -743,25 +780,3 @@ textarea {resize: none;}
 
 .form-group.send {display: inline-flex;}
 
-.form-send {color:var(--second-text-color); 
-     background:var(--accent-color);    
-     font-weight: 500;
-     line-height: 1.1;
-     align-items: center; 
-     letter-spacing: 0.04em;
-     
-     order: 0;
-     flex-grow: 0;
- 
-     border-radius: 4px;
-     border: 1px solid transparent;
-
-     width: 170px;
-     height: 51px;
-     cursor: pointer;}
-
-.form-send:hover {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); background-color: var(--second-text-color);
-     color: var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}  
-
-.form-send:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); background-color: var(--second-text-color);
-     color: var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);} 
