@@ -869,7 +869,7 @@ margin-bottom: 18px;}
 
     /* restaurant */
 
-.restaurant {background-color: #D8D8D8;}
+.restaurant-home {background-color: #D8D8D8;}
 .restaurant-title {font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
@@ -1235,3 +1235,70 @@ padding-bottom: 32px;}
         /* foir-seater */
 
         .four-seater {background-color:#D8D8D8;}
+
+
+
+        /* RESTAURANT */
+
+.menu {background-color: #121212;}
+.menu-food {font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  
+  color: #F7F7F7;}
+  .menu-head {font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #F7F7F7;}
+  .menu-list {display: flex;}    
+  .menu-titles {font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+line-height: 18px;
+    
+    letter-spacing: -0.02em;
+  
+    color: #F7F7F7;}
+ 
+    .menu-prg {font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 8px;
+      line-height: 12px;
+     
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      
+      color: #D8D7D7;}
+
+      .menu-gramm {font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        
+        letter-spacing: -0.02em;
+        
+        color: #D8D7D7;}
+
+ .menu-price {font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+line-height: 18px;
+ 
+  letter-spacing: -0.02em;
+  
+  color: #F7F7F7;}       
