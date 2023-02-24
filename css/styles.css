@@ -27,6 +27,14 @@ ul {list-style-type: none;
     background-color: rgba(18, 18, 18, 1);
     border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);}
 
+    .header-hotel {position: sticky;
+      top: 0;
+      z-index: 3;
+     
+      
+      background-color:#FFFFFF;
+      border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);}  
+
 .logo {font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -62,7 +70,8 @@ ul {list-style-type: none;
 .mobile-menu-open {background-color:transparent;
               border: none;
               padding: 24px 0;
-              border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);}
+              border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+            stroke:#F6F6F6;}
 
 .mobile-menu {position: fixed;
          width: 335px;
@@ -1039,7 +1048,7 @@ margin-bottom: 32px;}
 
   /* hotel */
 
-  .hotel {background-color: #121212;}
+  .home-hotel {background-color: #121212;}
 
 .hotel-title {font-family: 'DM Sans';
   font-style: normal;
@@ -1118,7 +1127,7 @@ margin-bottom: 3px;
 
 /* footer */
 
-
+.footer {background-color:#D8D8D8;}
 
 .footer-ico {background-color: transparent;
 stroke: #121212;}
@@ -1133,3 +1142,96 @@ gap: 14px;
   border-bottom: 3px solid rgba(18, 18, 18, 0.3);
 padding-bottom: 32px;}
   .footer-text {margin-right: 98px;}
+
+
+
+
+
+  /* HOTEL */
+
+  .hotel {background-color: #D8D8D8;;}
+.logo.hotel-head {font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  
+  color: #121212;
+  }
+  .mobile-menu-open_icon.htl {stroke: #121212;}
+  .rhc.hotel-prg {font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 8px;
+    
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    
+    color: #121212;}
+  .title {font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+   
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #121212;}
+
+    .hotel-prg {font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+    
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      
+      color: #121212;}
+
+
+      .hotel-btn {display: flex;
+      margin-top: 4px;
+    padding-bottom: 64px;}
+      .hotel-titel-room {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+   
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        
+        color: #121212;
+      margin-top: 32px;
+    margin-bottom: 32px;}
+
+        .hotel-prg-room {font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+       
+          letter-spacing: -0.02em;
+          text-transform: uppercase;
+          
+          color: #121212;
+        margin-bottom: 24px;}
+
+        /* double-room */
+
+        .double-room {background-color:#D8D8D8;}
+
+        /* triple */
+
+        .triple {background-color:#D8D8D8;}
+
+        /* foir-seater */
+
+        .four-seater {background-color:#D8D8D8;}
