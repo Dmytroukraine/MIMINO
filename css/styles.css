@@ -1302,3 +1302,40 @@ line-height: 18px;
   letter-spacing: -0.02em;
   
   color: #F7F7F7;}       
+
+
+  /* ROOM */
+
+.room {background-color: #D8D8D8;}
+.room-prg {font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+ 
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #121212;}
+  .room-about {background-color: #121212;}
+  .room-title {font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    
+    color: #F7F7F7;}
+
+    .room-item {font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+     
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      
+      color: #F7F7F7;}
